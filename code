@@ -1,0 +1,8 @@
+---
+  - name: ilovetree
+    hosts: code
+    tasks:
+      - name: make fuckin sure tree is installed
+        yum:
+          name: tree
+          state: latest
